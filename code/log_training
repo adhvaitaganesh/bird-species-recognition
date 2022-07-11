@@ -1,0 +1,64 @@
+000 (4781.000.000) 2021-07-19 16:03:18 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.cs.uni-saarland.de&noUDP&sock=schedd_1205_1bb6>
+...
+040 (4781.000.000) 2021-07-19 16:03:19 Started transferring input files
+	Transferring to host: <134.96.224.210:9618?addrs=134.96.224.210-9618&alias=lofn.cs.uni-saarland.de&noUDP&sock=teaching5_3334_dac1_448934>
+...
+040 (4781.000.000) 2021-07-19 16:09:27 Finished transferring input files
+...
+001 (4781.000.000) 2021-07-19 16:09:28 Job executing on host: <134.96.224.210:9618?addrs=134.96.224.210-9618&alias=lofn.cs.uni-saarland.de&noUDP&sock=startd_2284_3666>
+...
+040 (4781.000.000) 2021-07-19 16:09:31 Started transferring output files
+...
+040 (4781.000.000) 2021-07-19 16:09:31 Finished transferring output files
+...
+005 (4781.000.000) 2021-07-19 16:09:31 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	290  -  Run Bytes Sent By Job
+	9990982656  -  Run Bytes Received By Job
+	290  -  Total Bytes Sent By Job
+	9990982656  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated Assigned
+	   Cpus                 :       0.26        1         7 
+	   Disk (KB)            : 9756846    10000000 684154468 
+	   Gpus (Average)       :       0           1         1 "GPU-d3c46ffb"
+	   GpusMemory (MB)      :       7                       
+	   Memory (MB)          :                1024     64484 
+
+	Job terminated of its own accord at 2021-07-19T14:09:30Z.
+...
+000 (4783.000.000) 2021-07-19 16:12:08 Job submitted from host: <134.96.227.100:9618?addrs=134.96.227.100-9618&alias=conduit.cs.uni-saarland.de&noUDP&sock=schedd_1205_1bb6>
+...
+040 (4783.000.000) 2021-07-19 16:12:35 Started transferring input files
+	Transferring to host: <134.96.224.210:9618?addrs=134.96.224.210-9618&alias=lofn.cs.uni-saarland.de&noUDP&sock=teaching5_3334_dac1_449043>
+...
+040 (4783.000.000) 2021-07-19 16:18:26 Finished transferring input files
+...
+001 (4783.000.000) 2021-07-19 16:18:27 Job executing on host: <134.96.224.210:9618?addrs=134.96.224.210-9618&alias=lofn.cs.uni-saarland.de&noUDP&sock=startd_2284_3666>
+...
+040 (4783.000.000) 2021-07-19 16:18:30 Started transferring output files
+...
+040 (4783.000.000) 2021-07-19 16:18:30 Finished transferring output files
+...
+005 (4783.000.000) 2021-07-19 16:18:30 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	417  -  Run Bytes Sent By Job
+	9990983680  -  Run Bytes Received By Job
+	417  -  Total Bytes Sent By Job
+	9990983680  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated Assigned
+	   Cpus                 :       0.00        1         7 
+	   Disk (KB)            : 9756853    10000000 684154468 
+	   Gpus (Average)       :       0           1         1 "GPU-d3c46ffb"
+	   GpusMemory (MB)      :       7                       
+	   Memory (MB)          :                1024     64484 
+
+	Job terminated of its own accord at 2021-07-19T14:18:30Z.
+...

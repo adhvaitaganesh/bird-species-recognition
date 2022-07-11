@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "./condor_exec.exe", line 21, in <module>
+    from transforms import rescale
+  File "/raid/condor/lib/condor/execute/dir_2864498/transforms/rescale.py", line 2, in <module>
+    from skimage import transform
+ModuleNotFoundError: No module named 'skimage'

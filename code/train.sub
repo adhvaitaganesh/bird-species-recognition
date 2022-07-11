@@ -1,0 +1,31 @@
+universe                = docker
+docker_image            = pytorch/pytorch:latest
+transfer_input_files    = .,../dataset
+executable              = train.py
+
+# Arguments take shape: [network_id] [nr_epochs]
+# [network_id]:
+#  Just one of the following integers:
+#  1 = ResNet.
+#  2 = BirdClassifier SPP no cropping.
+#  3 = BirdClassifier SPP perfect cropping.
+#  4 = BirdSpotter SPP
+#  5 = BirdSpotter + BirdClassifier no SPP.
+#  6 = BirdSpotter + BirdClassifier SPP.
+# [nr_epochs]:
+#  Integer for number of epochs.
+
+arguments		= 1 2 # Train resnet for 20 epochs.
+
+# Note it overwrites the last output files. Rename them if you want to save them.
+output                  = results_training
+error                   = error_training
+log                     = log_training
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+request_GPUs = 1
+request_CPUs = 1
+request_memory = 1G
+requirements = UidDomain == "cs.uni-saarland.de" 
++WantGPUHomeMounted = true
+queue 1
